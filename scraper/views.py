@@ -5,4 +5,5 @@ from .helpers import get_all_customer_urls
 
 # Create your views here.
 def get_customer(request):
+    get_all_customer_urls()
     return JsonResponse({'status': 200})
